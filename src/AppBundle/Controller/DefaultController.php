@@ -61,6 +61,13 @@ public function cudAction()
     /*
      * D
      */
+    /**
+ * @Route("/zima-miejska.html", name="zima-miejska")
+ */
+public function zimamiejskaAction()
+{
+    return $this->render('default/zima-miejska.html.twig');
+}
 
     /*
      * E
